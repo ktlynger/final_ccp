@@ -44,18 +44,17 @@ h1.website-title {
 
 .skip-to-main-content-link {
     position: absolute;
-    left: -9999px;
-    z-index: 999;
-    padding: 1em;
-    background-color: black;
-    color: white;
-    opacity: 0;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 .skip-to-main-content-link:focus {
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 1;
+    position: static;
+    width: auto;
+    height: auto;
 }
 
 .header {
